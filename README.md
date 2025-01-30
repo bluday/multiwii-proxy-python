@@ -34,4 +34,4 @@ Other example usages can be found in the `examples` directory.
 
 ## Licensing
 
-This project is licensed under the MIT license. See [LICENSE](https://github.com/BluDay/multiwii-proxy-python/blob/master/LICENSE) for more details.
+This project is licensed under the MIT license. See [LICENSE](https://github.com/bluday/multiwii-proxy-python/blob/master/LICENSE) for more details.
