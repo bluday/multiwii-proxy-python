@@ -14,23 +14,7 @@ Run either `pip install .` or `poetry build` to install the package:
 
 ## Usage
 
-```python
-from serial import Serial
-
-from multiwii import MultiWii
-
-from multiwii.commands import MSP_IDENT
-
-serial_port = Serial('/dev/ttyUSB0', baudrate=115200)
-
-multiwii = MultiWii(serial_port)
-
-ident = multiwii.get_data(MSP_IDENT)
-
-print(repr(ident.multitype)) # <MultiWiiMultitype.QuadX: 3>
-```
-
-Other example usages can be found in the `examples` directory.
+Check the `examples` directory.
 
 ## Licensing
 
